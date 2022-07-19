@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  fastapi:
+    container_name: pneumonia_fastapi
+    build: .
+    ports:
+      - "8000:80"
