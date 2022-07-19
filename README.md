@@ -34,6 +34,10 @@ The Confusion Matrix for the Test Data is as follows:
 
 ## Improvements
 Instead of using class_weights, data augmentation to balance the dataset could help to further improve accuracy and recall.
-Also tuning the hyperparameter using e.g. [hyperas](https://github.com/maxpumperla/hyperas) could potentionally improve the quality of the results.
 
-Moreover, other architectures could create better results, but were not tested yet.
+Other possible Improvements include:
+  - tuning the hyperparameters using e.g. [hyperas](https://github.com/maxpumperla/hyperas)
+  - using other architectures e.g. networks with conv-conv-pool blocks
+  - using transfer learning on e.g. the vgg16 imagenet network
+  
+These possabilities were not tested yet.
